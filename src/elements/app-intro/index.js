@@ -17,9 +17,6 @@ define('app-intro', class extends WeElement {
       <p class="app-intro">
         To get started, edit <code>src/elements/*/*.*</code> and save to reload.
         {props.children}
-        <slot name="my-text">
-         <p>这是模板</p>
-        </slot>
       </p>
       
     )

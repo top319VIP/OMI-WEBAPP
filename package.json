@@ -1,5 +1,5 @@
 {
-  "name": "my-mobeile-app",
+  "name": "OMI-WEBAPP",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -38,6 +38,7 @@
     "omi": "^5.0.24",
     "omi-page": "^0.1.0",
     "omio": "latest",
+    "omiu": "0.0.12",
     "postcss-flexbugs-fixes": "3.2.0",
     "postcss-loader": "2.0.8",
     "prettier": "^1.14.3",

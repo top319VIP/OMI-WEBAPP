@@ -28,7 +28,7 @@ class Http {
         } else if (method === 'upload' || (FormData && data instanceof FormData)) {
             requestConfig.method = 'post';
             requestConfig.body = data;
-            requestConfig.headers = {};
+            requestConfig.headers = requestConfig.headers.Authorization ? { Authorization: requestConfig.headers.Authorization } : {};
         } else {
             requestConfig["body"] = JSON.stringify(data);
         }
